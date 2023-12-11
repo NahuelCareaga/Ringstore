@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ring Universo</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/imgs/ringlogo.png">
+    <script src="https://kit.fontawesome.com/330ca645c0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="listaHeader1">
+                <a href="/"><img src="/imgs/ringlogo.png" class="imgLogo"></a>
+                <a href="/nosotros" style="text-decoration: none; color: #A6771D;"><h2 style="list-style: none;">Nosotros</h2></a>
+                <a href="/products" style="text-decoration: none; color: #A6771D;"><h2 style="list-style: none;">Nuestros Productos</h2></a>
+                <a href="#"><i class="fa-brands fa-whatsapp fa-beat-fade logoWpp" style="color: #068e21;"></i></a>
+                <a href="https://www.instagram.com/ringuniverso/"><i class="fa-brands fa-instagram fa-bounce logoInsta" style="color: #bf1d3d;"></i></a>
+            </ul>
+        </nav>
+    </header>
+
+    <br>
+
+    <h1 class="h1">Estos son nuestros productos!</h1>
+
+    <div class="cajaProducto">
+    <% for( let i = 0; i < producto.length; i++ ) { %>
+        <div class="caja">
+            <h2 class="nombre" style="color: #fbf3e9;"><%= producto[i].nombre %></h2>            
+            <img class="producto"
+                src="<%= producto[i].imagen %>"
+                alt="">
+            <h4 class="descripcion" style="color: #fbf3e9;"><%= producto[i].descripcion %></h4>
+        </div>
+    <% } %>
+    </div>
+    <br>
+    <footer>
+        <nav>
+            <ul class="listaFooter">
+                <li style="list-style: none; font-size: larger;">Gracias por visitarnos!</li>
+                <a href="https://www.google.com/maps?s=web&sca_esv=581287324&client=opera-gx&hs=JrF&lqi=CgpyaW5nIHN0b3JlSJurvPzFtYCACFoUEAAQARgAGAEiCnJpbmcgc3RvcmWSAQlnaWZ0X3Nob3CqAU4KCi9tLzByNHNqcDEQASoOIgpyaW5nIHN0b3JlKA4yHhABIhrX-vU8GTrQT60dp5Y2CzM0Ns6PcLRPuYF9vDIOEAIiCnJpbmcgc3RvcmU&phdesc=h6Mil-93SVA&vet=12ahUKEwi2xoWLh7qCAxWZpJUCHQEiB1oQ1YkKegQIFhAM..i&cs=1&um=1&ie=UTF-8&fb=1&gl=ar&sa=X&geocode=KfEDXW66ybyVMYpiBXk9I8Le&daddr=Carhue+161,+Buenos+Aires" style="text-decoration: none; color: #A6771D;"><li style="list-style: none; font-size: larger;">Consultá nuestra dirección <i class="fa-solid fa-map-location-dot" style="color: #A6771D;"></i> </li></a>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
