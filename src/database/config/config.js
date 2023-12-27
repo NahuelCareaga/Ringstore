@@ -5,7 +5,7 @@ module.exports = {
       "database": "nahuel_ringuniverso",
       "host": "mysql-nahuel.alwaysdata.net",
       "dialect": "mysql",
-      "port":3304
+      "port":3306
     },
     "test": {
       "username": "root",
