@@ -9,7 +9,354 @@ body{
 
 header{
     background-color: #223C38;
-    height: 36vh;
+    height: 120px;
+    width: 100%;
+}
+
+.listaHeader1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;    
+    font-size: bold 20px;
+    margin: 0px;
+    padding-left: 2px;
+    padding-top: 75px;
+    visibility: hidden;
+}
+
+.listaHeader2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;    
+    font-size: bold 5px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-top: 40px;
+}
+
+.h2Header{
+    font-size: 5px bold;
+}
+
+.imgLogo{
+    width: 45px;
+}
+
+.logoWpp{
+    scale: 150%;
+}
+
+.logoInsta{
+    scale: 150%;
+}
+
+.anchologo{
+    width: 0px;
+}
+
+/*Index*/
+
+.banner{
+    width: 100%;
+    height: 100%;
+}
+
+/*Nosotros*/
+.h4{
+    margin-left: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: small;
+}
+
+/*Products*/
+
+.h1{
+    text-align: center;
+    font-size: larger;
+}
+
+.cajaProducto{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caja{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: solid 3px;
+    border-radius: 5px;
+    border-color: #A6771D;
+    background-color: #223C38;
+    width: 95vw;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.producto{
+    border: solid 2px;
+    border-color: #A6771D;
+    border-radius: 10px;
+    width: 70%;
+    margin-left: 50px;
+}
+
+.descripcion{
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+}
+
+footer{
+    background-color: #223C38;
+    height: 120px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.listaFooter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+/*Vista 480px a 768px*/
+@media (min-width: 480px) and (max-width: 768px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-family: Verdana, Geneva, sans-serif;
+        color: #A6771D;
+        background-color: #AC9F91;
+    }
+    
+    header{
+        background-color: #223C38;
+        height: 120px;
+        width: 100%;
+    }
+    
+    .listaHeader1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;    
+        font-size: bold 40px;
+        margin: 0px;
+    }
+    
+    
+    .imgLogo{
+        scale: 100%;
+    }
+    
+    .logoWpp{
+        scale: 200%;
+    }
+    
+    .logoInsta{
+        scale: 200%;
+    }
+    
+    a{
+        height: 50%;
+    }
+    
+    /*Index*/
+    
+    .banner{
+        width: 100%;
+        height: 100%;
+    }
+    
+    /*Nosotros*/
+    .h4{
+        margin-left: 10px;
+    }
+    
+    /*Products*/
+    
+    .h1{
+        text-align: center;
+    }
+    
+    .cajaProducto{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .caja{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        border: solid 3px;
+        border-radius: 5px;
+        border-color: #A6771D;
+        background-color: #223C38;
+        width: 41vw;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .producto{
+        border: solid 2px;
+        border-color: #A6771D;
+        border-radius: 10px;
+        width: 70%;
+        margin-left: 30px;
+    }
+    
+    .descripcion{
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    
+    footer{
+        background-color: #223C38;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .listaFooter{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        padding-top: 15px;
+    }}
+
+/*Vista 768px a 1200px*/
+@media (min-width: 768px) and (max-width: 1200px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-family: Verdana, Geneva, sans-serif;
+        color: #A6771D;
+        background-color: #AC9F91;
+    }
+    
+    header{
+        background-color: #223C38;
+        height: 130px;
+        width: 100%;
+    }
+    
+    .listaHeader1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;    
+        font-size: bold 40px;
+        margin: 0px;
+    }
+    
+    
+    .imgLogo{
+        scale: 100%;
+    }
+    
+    .logoWpp{
+        scale: 200%;
+    }
+    
+    .logoInsta{
+        scale: 200%;
+    }
+    
+    a{
+        height: 50%;
+    }
+    
+    /*Index*/
+    
+    .banner{
+        width: 100%;
+        height: 100%;
+    }
+    
+    /*Nosotros*/
+    .h4{
+        margin-left: 10px;
+    }
+    
+    /*Products*/
+    
+    .h1{
+        text-align: center;
+    }
+    
+    .cajaProducto{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .caja{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        border: solid 3px;
+        border-radius: 5px;
+        border-color: #A6771D;
+        background-color: #223C38;
+        width: 27vw;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .producto{
+        border: solid 2px;
+        border-color: #A6771D;
+        border-radius: 10px;
+        width: 70%;
+        margin-left: 30px;
+    }
+    
+    .descripcion{
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    
+    footer{
+        background-color: #223C38;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .listaFooter{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        padding-top: 25px;
+    }}
+
+@media (min-width: 1200px){
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #A6771D;
+    background-color: #AC9F91;
+}
+
+header{
+    background-color: #223C38;
+    height: 220px;
+    width: 100%;
 }
 
 .listaHeader1{
@@ -19,11 +366,24 @@ header{
     flex-direction: row;    
     font-size: bold 40px;
     margin: 0px;
+    visibility: visible;
+    padding-top: 50px;
 }
 
+.listaHeader2{
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;    
+    font-size: bold 5px;
+    margin: 0px;
+    padding-left: 2px;
+    padding-top: 0px;
+    visibility: hidden;
+}
 
 .imgLogo{
-    scale: 50%;
+    width: 100px;
 }
 
 .logoWpp{
@@ -69,7 +429,7 @@ a{
     border-radius: 5px;
     border-color: #A6771D;
     background-color: #223C38;
-    width: 30vw;
+    width: 21vw;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 10px;
@@ -81,7 +441,7 @@ a{
     border-color: #A6771D;
     border-radius: 10px;
     width: 70%;
-    margin-left: 80px;
+    margin-left: 40px;
 }
 
 .descripcion{
@@ -94,6 +454,7 @@ footer{
     background-color: #223C38;
     padding-top: 10px;
     padding-bottom: 10px;
+    height: 100px;
 }
 
 .listaFooter{
@@ -101,4 +462,5 @@ footer{
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
-}
+    padding-top: 15px;
+}}
