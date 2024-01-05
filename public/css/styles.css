@@ -11,6 +11,8 @@ header{
     background-color: #223C38;
     height: 120px;
     width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .listaHeader1{
@@ -118,7 +120,8 @@ footer{
     width: 100%;
     padding-top: 25px;
     padding-bottom: 10px;
-    padding-left: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .listaFooter{
@@ -143,6 +146,8 @@ footer{
         background-color: #223C38;
         height: 120px;
         width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
     }
     
     .listaHeader1{
@@ -227,6 +232,8 @@ footer{
         background-color: #223C38;
         padding-top: 10px;
         padding-bottom: 10px;
+        padding-right: 0px;
+        padding-left: 0px;
     }
     
     .listaFooter{
@@ -251,6 +258,8 @@ footer{
         background-color: #223C38;
         height: 130px;
         width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
     }
     
     .listaHeader1{
@@ -335,6 +344,8 @@ footer{
         background-color: #223C38;
         padding-top: 10px;
         padding-bottom: 10px;
+        padding-right: 0px;
+        padding-left: 0px;
     }
     
     .listaFooter{
@@ -358,6 +369,8 @@ header{
     background-color: #223C38;
     height: 220px;
     width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .listaHeader1{
@@ -460,8 +473,9 @@ footer{
     background-color: #223C38;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 0px;
     height: 100px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .listaFooter{
