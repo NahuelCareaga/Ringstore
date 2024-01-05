@@ -116,8 +116,9 @@ footer{
     background-color: #223C38;
     height: 120px;
     width: 100%;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 .listaFooter{
@@ -370,6 +371,10 @@ header{
     padding-top: 50px;
 }
 
+.ulHeader:hover{
+    background-color: #40615c;
+}
+
 .listaHeader2{
     display: none;
     justify-content: space-around;
@@ -419,6 +424,7 @@ a{
 .cajaProducto{
     display: flex;
     flex-wrap: wrap;
+    padding-left: 15px;
 }
 
 .caja{
