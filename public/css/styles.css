@@ -80,6 +80,20 @@ header{
     padding-top: 400px;
 }
 
+.imgSlider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 525px;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*Nosotros*/
 .h4{
     margin-left: 1px;
